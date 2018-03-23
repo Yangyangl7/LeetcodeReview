@@ -9,7 +9,6 @@ During traversing the array, everytime when we meet a digit below the current mi
 everytime when we meet a digit above the minPrice, we check whether the current price minus with current minPrice can create a new maximal
 number that is bigger than current maxPrice, if so, we update it, otherwise, we just i++.
 
-===================================
 122 Best time to buy and sell stock 
 ===================================
 The question is simple, we just need to find the sum of all increasing gap in the array
