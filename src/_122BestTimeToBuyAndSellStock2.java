@@ -4,9 +4,9 @@ public class _122BestTimeToBuyAndSellStock2 {
 	public int maxProfit(int[] prices) {
 		int maxPrice = 0;
 		
-		for (int i = 0; i < prices.length - 1; i++) {
-			if (prices[i] < prices[i + 1])
-				maxPrice += prices[i + 1] -prices[i];
+		for (int j = 0; j < prices.length - 1; j++) {
+			if (prices[j] < prices[j + 1])
+				maxPrice += prices[j + 1] -prices[j];
 		}
 		
 		return maxPrice;
