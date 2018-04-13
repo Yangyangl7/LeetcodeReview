@@ -25,4 +25,12 @@ The key is dfs function and the count number. The dfs function can help us get a
 
 3 longestSubstring without repeating letters
 ====================================
-Maintance of a silding window and a HashMap (character:index) can tackle the question. And in practice, we should be careful about the position of tail, do not let it go back. 
+Maintance of a silding window and a HashMap (character:index) can tackle the question. And in practice, we should be careful about the position of tail, do not let it go back.
+
+2 Add two numbers
+====================================
+Add a -1 virtual node, check the carry value.
+
+304rangSumQuery2D
+====================================
+Dynamic Programming. The square of zones equals to what.
