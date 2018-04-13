@@ -34,3 +34,7 @@ Add a -1 virtual node, check the carry value.
 304rangSumQuery2D
 ====================================
 Dynamic Programming. The square of zones equals to what.
+
+5 longest Palindormic Substrings
+====================================
+We expand the palindormic substrings by expand it from the center, everytime the left one and the right one of the center is same, it is a palindormic, and then we use left-- and right++. And we also should maintain the startIndex and maxmial length of the palindomic substrings, since we need the two index to apply substring method.
